@@ -1,0 +1,28 @@
+{
+  "name": "jsautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "script_1": "tsc testFile1.ts -t ES5",
+    "script_2": "tsc testFile1.ts --removecomments",
+    "script_3": "tsc testFile1.ts --outDir compiled "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AleksAvtushko/JsAutomation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AleksAvtushko/JsAutomation/issues"
+  },
+  "homepage": "https://github.com/AleksAvtushko/JsAutomation#readme",
+  "devDependencies": {
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
